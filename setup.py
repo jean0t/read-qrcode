@@ -3,9 +3,8 @@ from setuptools import setup, find_packages
 setup(
     name="read-qrcode",
     version="1.0.0",
-    packages=find_packages(where="src"),
-    package_dir={"": "src"},
     py_modules=["read_qrcode"],
+    package_dir={"": "src"},
     entry_points={
         "console_scripts": [
             "read-qrcode=read_qrcode:main",
