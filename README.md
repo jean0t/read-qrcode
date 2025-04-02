@@ -1,6 +1,9 @@
 # 📸 Read QR Code from Screen
 
-A Python tool to capture a selected area of the screen and read QR codes using OpenCV. Perfect for quickly extracting QR code data from images! 🚀
+A Python tool to capture a selected area of the screen and read QR codes using OpenCV. Perfect for quickly extracting QR code data from images! 🚀 
+***
+Reason why I created this tool:  
+I use [pass](https://www.passwordstore.org/) as my password manager and sometimes I need to take screenshots and read qr codes to get the otp to the 2 factors authentication, of course it isnt difficult to take a screenshot and use `zbarimg` to read the contents, but making it all in one command is easier and faster.  
 
 ## 📥 Installation
 
