@@ -7,7 +7,7 @@ I use [pass](https://www.passwordstore.org/) as my password manager and sometime
 
 ## Dependencies
 
-Wayland:
+Wayland:  
     - `flameshot`
 
 ## 📥 Installation
@@ -15,7 +15,7 @@ Wayland:
 Ensure you have Python 3.11.2+ installed, then run:  
 
 ```bash
-pip install *.whl
+pipx install ./*.whl
 ```
 
 Or, if installing from source:
