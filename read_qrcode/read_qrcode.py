@@ -2,6 +2,7 @@ from os import environ
 from io import BytesIO
 
 from .screenshot import ScreenshotFactory
+from PIL import Image
 from pyzbar.pyzbar import decode
 
 class QrCode:
@@ -10,7 +11,7 @@ class QrCode:
         self.screen = self._get_image()
         self.qr_codes = self._decode(self.screen)
 
-    def _get_image(self) -> Image:
+    def _get_image(self) -> Image.Image:
         return self.screenshot.take_screenshot()
 
     def _decode(self, image):

@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "read-qrcode"
-version = "4.0.0"
+version = "4.0.2"
 description = "Read QR codes on the screen and retrieve its data"
 authors = ["jean0t <joaomouryf@hotmail.com>"]
 license = "GPL-3.0-or-later"
@@ -9,8 +9,8 @@ packages = [{ include = "read_qrcode" }]
 
 [tool.poetry.dependencies]
 python = ">=3.11"
-pyautogui = ">=0.9.54,<0.10.0"
 pyzbar = ">=0.1.9,<0.2.0"
+mss = "^10.0.0"
 
 [tool.poetry.scripts]
 read_qrcode = "read_qrcode.__main__:main"
