@@ -7,8 +7,8 @@ I use [pass](https://www.passwordstore.org/) as my password manager and sometime
 
 ## Dependencies
 
-Wayland:  
-    - `flameshot`
+Wayland (if not kde or gnome):  
+    - `grim`  
 
 ## 📥 Installation
 
