@@ -1,7 +1,7 @@
-from .read_qrcode import Qr_code
+from .read_qrcode import QrCode
 
 def main():
-    qrcode = Qr_code()
+    qrcode = QrCode()
     qrcode.output_data()
 
 
