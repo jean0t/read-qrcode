@@ -28,7 +28,7 @@ class WaylandScreenshot(Screenshot):
 
     def take_screenshot(self) -> Image.Image:
         try:
-            if shutil.which("wayshot"):
+            if shutil.which("wayshot") and not "kde" in self.desktop:
                 result = run(["wayshot", "-f", "-"], capture_output=True, check=True)
                 img = self._convert_bytes_to_img(result.stdout)
                 return img
