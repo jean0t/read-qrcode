@@ -9,6 +9,8 @@ I use [pass](https://www.passwordstore.org/) as my password manager and sometime
 
 Wayland (if not kde or gnome):  
     - `grim`  
+    
+Or `wayshot`: works in almost all Desktop Environments, except KDE.  
 
 ## 📥 Installation
 
