@@ -7,6 +7,11 @@ I use [pass](https://www.passwordstore.org/) as my password manager and sometime
 
 ## Dependencies
 
+- zbar-tools
+- libzbar0
+- libzbar-dev
+- python3-zbar
+
 Wayland (if not kde or gnome):  
     - `grim`  
     
